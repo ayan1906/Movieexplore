@@ -175,7 +175,7 @@ const Moviecard = () => {
                             </div>
                         </div>
 
-                        {/* সামারি বা বিবরণ (HTML ট্যাগ ক্লিন করে দেখানো) */}
+                        
                         <div className="mt-4 pt-4 border-t border-slate-800">
                             <p className="text-xs sm:text-sm text-slate-300 line-clamp-4 leading-relaxed">
                                 {selectedMovie.summary?.replace(/<[^>]*>?/gm, '') || 'No summary available.'}
